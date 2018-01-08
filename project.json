@@ -1,0 +1,10 @@
+{
+    "id": "tags",
+    "type": "package",
+    "value": {
+        "description": "Common tags to be used in corto types",
+        "author": "Sander Mertens",
+        "version": "1.0.0",
+        "language": "c"
+    }
+}
