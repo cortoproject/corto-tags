@@ -29,5 +29,9 @@ tag width{}
 tag height{}
 tag depth{}
 
+// Physics
+tag mass{}
+tag volume{}
+
 // Movement
 tag speed{}
