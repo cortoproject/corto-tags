@@ -1,7 +1,11 @@
 in package /tags
 
+// Identification
+tag guid{}
+
 // Documentation
 tag name{}
+tag short_description{}
 tag description{}
 tag url{}
 
