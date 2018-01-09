@@ -1,7 +1,21 @@
 in package /tags
 
+// User friendly name
+tag name{}
+
+// Time
 tag time_created{}
 tag time_last_modified{}
 
-tag position_latitude{}
-tag position_longitude{}
+// Position
+tag latitude{}
+tag longitude{}
+tag altitude{}
+
+// Dimension
+tag width{}
+tag height{}
+tag depth{}
+
+// Color
+tag color{}
