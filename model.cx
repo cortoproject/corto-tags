@@ -1,11 +1,19 @@
 in package /tags
 
-// User friendly name
+// Documentation
 tag name{}
+tag description{}
+tag url{}
+
+// Visualization
+tag color{}
+tag icon{}
+tag image{}
 
 // Time
 tag time_created{}
 tag time_last_modified{}
+tag time_received{}
 
 // Position
 tag latitude{}
@@ -17,5 +25,5 @@ tag width{}
 tag height{}
 tag depth{}
 
-// Color
-tag color{}
+// Movement
+tag speed{}
