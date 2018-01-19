@@ -18,11 +18,17 @@ tag image{}
 tag time_created{}
 tag time_last_modified{}
 tag time_received{}
+tag uptime{}
 
 // Position
 tag latitude{}
 tag longitude{}
 tag altitude{}
+
+// Rotation
+tag rotation_x{}
+tag rotation_y{}
+tag rotation_z{}
 
 // Dimension
 tag width{}
@@ -31,6 +37,7 @@ tag depth{}
 
 // Physics
 tag mass{}
+tag weight{}
 tag volume{}
 
 // Movement
