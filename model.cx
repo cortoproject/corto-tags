@@ -20,10 +20,15 @@ tag time_last_modified{}
 tag time_received{}
 tag uptime{}
 
-// Position
+// Geographic coordinates
 tag latitude{}
 tag longitude{}
 tag altitude{}
+
+// Position
+tag position_x{}
+tag position_y{}
+tag position_z{}
 
 // Rotation
 tag rotation_x{}
