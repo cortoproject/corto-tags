@@ -13,6 +13,7 @@ tag url{}
 tag color{}
 tag icon{}
 tag image{}
+tag shape{}
 
 // Time
 tag time_created{}
@@ -20,25 +21,29 @@ tag time_last_modified{}
 tag time_received{}
 tag uptime{}
 
-// Geographic coordinates
-tag latitude{}
-tag longitude{}
-tag altitude{}
+// Geographic coordinate
+tag geo_coordinate{} :/
+    tag latitude{}
+    tag longitude{}
+    tag altitude{}
 
-// Position
-tag position_x{}
-tag position_y{}
-tag position_z{}
+// Cartesian coordinate
+tag position{} :/
+    tag x{}
+    tag y{}
+    tag z{}
 
 // Rotation
-tag rotation_x{}
-tag rotation_y{}
-tag rotation_z{}
+tag rotation{} :/
+    tag x{}
+    tag y{}
+    tag z{}
 
 // Dimension
-tag width{}
-tag height{}
-tag depth{}
+tag size{} :/
+    tag width{}
+    tag height{}
+    tag depth{}
 
 // Physics
 tag mass{}
