@@ -1,0 +1,58 @@
+in tags
+
+// Identification
+tag guid = {}
+
+// Documentation
+tag name = {}
+tag short_description = {}
+tag description = {}
+tag url = {}
+
+// Visualization
+tag color = {}
+tag icon = {}
+tag image = {}
+tag shape = {}
+
+// Time
+tag time_created = {}
+tag time_last_modified = {}
+tag time_received = {}
+tag uptime = {}
+
+// Geographic coordinate
+tag geo_coordinate {
+    tag latitude = {}
+    tag longitude = {}
+    tag altitude = {}
+}
+
+// Cartesian coordinate
+tag position {
+    tag x = {}
+    tag y = {}
+    tag z = {}
+}
+
+// Rotation
+tag rotation {
+    tag x = {}
+    tag y = {}
+    tag z = {}
+}
+
+// Dimension
+tag size {
+    tag width = {}
+    tag height = {}
+    tag depth = {}
+}
+
+// Physics
+tag mass = {}
+tag weight = {}
+tag volume = {}
+
+// Movement
+tag speed = {}
