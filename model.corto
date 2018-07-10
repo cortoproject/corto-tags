@@ -53,6 +53,7 @@ tag size {
 tag mass = {}
 tag weight = {}
 tag volume = {}
-
+tag temperature = {}
+  
 // Movement
 tag speed = {}
