@@ -6,19 +6,20 @@
 #ifndef TAGS_H
 #define TAGS_H
 
-#include <corto/corto.h>
-#include <tags/_project.h>
-#include <corto/c/c.h>
+#include "bake_config.h"
+
+#define TAGS_ETC ut_locate("tags", NULL, UT_LOCATE_ETC)
 
 /* $header() */
 /* Definitions that are required by package headers (native types) go here. */
 /* $end */
 
-#include <tags/_type.h>
-#include <tags/_interface.h>
-#include <tags/_load.h>
-#include <tags/_binding.h>
-#include <tags/c/_api.h>
+#include "_type.h"
+#include "_interface.h"
+#include "_load.h"
+#include "_binding.h"
+
+#include <tags.c>
 
 /* $body() */
 /* Definitions here that need your package headers go here. */
