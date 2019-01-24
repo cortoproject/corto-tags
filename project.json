@@ -7,7 +7,7 @@
         "organization": "cortoproject",
         "version": "1.0.0",
         "license": "MIT",
-        "repository": "https://github.com/cortoproject/tags",
-        "language": "c"
-    }
+        "repository": "https://github.com/cortoproject/tags"
+    },
+    "corto": { }
 }
